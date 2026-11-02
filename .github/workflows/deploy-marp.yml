@@ -63,6 +63,7 @@ jobs:
             slug="${slug// /-}"
 
             npx --yes @marp-team/marp-cli@latest "$file" \
+              --allow-local-files \
               --output "_site/presentations/$slug"
 
             printf '%s\t%s\n' "$relative" "presentations/$slug" >> /tmp/marp-index.tsv
@@ -123,4 +124,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
