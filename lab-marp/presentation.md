@@ -17,7 +17,7 @@ footer: "Event Ticketing | Lab presentation"
 
 # Event Ticketing
 
-**Lab presentation**
+**Lab marp**
 
 Student: **Oussama Ech-charef**  
 Supervisor: **ES-Sarraj Fouad**
