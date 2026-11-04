@@ -22,7 +22,7 @@ footer: "Event Ticketing | Lab presentation"
 Student: **Oussama Ech-charef**  
 Supervisor: **ES-Sarraj Fouad**
 
-<!-- This presentation is about my Event Ticketing project. -->
+
 
 ---
 
@@ -34,7 +34,7 @@ Event Ticketing is a platform to **add and show events**.
 
 It puts events in one place.
 
-<!-- This project helps add and show events. -->
+<!-- Event Ticketing is a platform for events. -->
 
 ---
 
@@ -46,7 +46,7 @@ It puts events in one place.
 - This platform puts events in one place.
 - People can find events more easily.
 
-<!-- This platform helps people find events. -->
+<!-- People need an easy way to find events. -->
 
 ---
 
@@ -60,7 +60,7 @@ It puts events in one place.
 | Show events | Display events |
 | Group events | Use categories and organizers |
 
-<!-- The project needs pages to add and show events. -->
+<!-- The project needs pages for events. -->
 
 ---
 
@@ -87,7 +87,7 @@ An organizer can have events. Each event has a category.
 | Tailwind CSS | Make pages look good |
 | PHP | Work with data on the server |
 
-<!-- These are the tools we use for the project. -->
+<!-- We use four technologies in this project. -->
 
 ---
 
@@ -97,7 +97,7 @@ An organizer can have events. Each event has a category.
 
 We can add and see categories on the dashboard.
 
-<!-- We can add and see categories on the dashboard. -->
+<!-- The dashboard can add and show categories. -->
 
 ---
 
@@ -111,7 +111,8 @@ The project is a platform to **add and show events**.
 
 Its database has three tables: **Event, Category and Organizer**.
 
-<!-- Event Ticketing puts events in one place. -->
+<!-- This project brings events together. -->
+
 
 
 

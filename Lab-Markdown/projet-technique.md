@@ -2,7 +2,7 @@
 
 ## Project Topic
 
-<!-- My project helps people see events. -->
+<!-- Event Ticketing is a platform for events. -->
 
 **Event Ticketing** is a platform to manage and show events. It puts event information in *one place*.
 
@@ -20,7 +20,7 @@ The project is ~~only about categories~~ about events, categories, and organizer
 
 ## Project Objective
 
-<!-- The goal is to add and see events. -->
+<!-- The goal is to make events easy to find. -->
 
 The goal is to make events easy to add and see.
 
@@ -49,5 +49,6 @@ Organizer → Event ← Category
 ```
 
 Learn more about Markdown in the [Markdown Guide](https://www.markdownguide.org/).
+
 
 

@@ -22,7 +22,6 @@ footer: "Event Ticketing | Lab Stack"
 
 Student: **Oussama Ech-charef**
 
-<!-- This is my Event Ticketing project and Lab Stack. -->
 
 ---
 
@@ -34,7 +33,7 @@ Student: **Oussama Ech-charef**
 - The database has three tables: **Event, Category and Organizer**.
 - We can add and see categories on the dashboard.
 
-<!-- My project helps us add and see events. -->
+<!-- Event Ticketing is a platform for events. -->
 
 ---
 
@@ -48,7 +47,7 @@ Student: **Oussama Ech-charef**
 | Native PHP · Laravel · MySQL | Markdown · OpenCode · Marp |
 | Kotlin · JavaScript · JSON | OmniRoute · Antigravity · GitHub Copilot |
 
-<!-- These are the technologies and tools for my project. -->
+<!-- We use these tools to build the project. -->
 
 ---
 
@@ -60,7 +59,7 @@ Student: **Oussama Ech-charef**
 - We use labs to discover tools and test ideas.
 - Labs help us build parts of the project.
 
-<!-- Labs help us learn and work on the project. -->
+<!-- A lab helps us learn and test ideas. -->
 
 ---
 
@@ -72,5 +71,6 @@ Student: **Oussama Ech-charef**
 | --- | --- | --- | --- |
 | 1. What is a Lab?<br>2. Markdown<br>3. GitHub Pages<br>4. Antigravity<br>5. Marp<br>6. OpenCode<br>7. Pandoc<br>8. OmniRoute | 11. 2TUP<br>12. Design Thinking<br>13. GitHub Issues<br>14. Scrum<br>15. GitHub Copilot<br>16. ASCII | 9. Tailwind CSS<br>10. Preline<br>17. OOP<br>18. Native PHP<br>19. Laravel<br>20. Kotlin<br>21. ES7 JavaScript<br>22. JS Errors<br>23. Prompt-Agent-Skill | 24. AI Communication<br>25. Tech Watch<br>26. Starter<br>27. Planning<br>28. Git<br>29. Lab Stack<br>30. Agent |
 
-<!-- These are the labs for the project. -->
+<!-- These labs have four phases. -->
+
 
