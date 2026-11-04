@@ -1,0 +1,38 @@
+/* @theme event-lab */
+@import 'default';
+
+section {
+  background: #f7f9fc;
+  color: #173050;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 28px;
+  padding: 64px 78px;
+  border-top: 12px solid #164b89;
+}
+h1 { color: #143d70; font-size: 48px; margin: 0 0 30px; }
+h2 { color: #d44352; font-size: 30px; margin: 0 0 24px; }
+p, li { line-height: 1.4; }
+li { margin: 14px 0; }
+strong { color: #164b89; }
+table { width: 100%; font-size: 25px; border-collapse: collapse; }
+th { background: #164b89; color: white; }
+td, th { border: 1px solid #d8e2ef; padding: 14px 18px; }
+tr:nth-child(even) td { background: #edf3fa; }
+code { font-size: 22px; }
+pre { background: #e9f0f8; color: #143d70; padding: 14px 24px; margin: 0 0 16px; }
+em { color: #60758e; font-size: 22px; }
+section::after { color: #60758e; font-size: 16px; }
+section.cover { background: #f7f9fc; justify-content: center; }
+.cover h1 { font-size: 64px; margin-top: 55px; margin-bottom: 12px; }
+.cover p { margin: 12px 0; }
+.logos { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 95px; }
+.logo { background-repeat: no-repeat; background-position: center; background-size: contain; height: 90px; flex-shrink: 0; }
+.ofppt { background-image: url('../lab-marp/ofppt.jpg'); width: 180px; }
+.solicode { background-image: url('../lab-marp/solicode.png'); width: 200px; }
+section.closing { background: #eaf1fa; }
+.closing strong { color: #d44352; font-size: 34px; }
+
+
+section.compact table { font-size: 22px; }
+section.compact td, section.compact th { padding: 10px 14px; }
+

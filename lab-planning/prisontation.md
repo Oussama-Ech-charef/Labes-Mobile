@@ -3,201 +3,105 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-style: |
-  section {
-    background-color: #ffffff;
-    color: #111827;
-    font-family: 'Inter', system-ui, sans-serif;
-    padding: 40px 60px;
-  }
-  h1, h2, h3 {
-    font-family: 'Inter', system-ui, sans-serif;
-    color: #1d4ed8;
-    letter-spacing: 0.5px;
-  }
-  section.light {
-    background-color: #ffffff;
-    color: #111827;
-  }
-  section.light h1, section.light h2, section.light h3 {
-    color: #1d4ed8;
-  }
-  pre, code {
-    background-color: #eff6ff;
-    color: #111827;
-    border-radius: 6px;
-    font-family: 'Fira Code', 'Consolas', monospace;
-  }
-  section.light pre, section.light code {
-    background-color: #eff6ff;
-    color: #111827;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.9em;
-  }
-  th {
-    background-color: #2563eb;
-    color: #ffffff;
-    padding: 6px 8px;
-  }
-  td {
-    color: #111827;
-    padding: 5px 8px;
-    border-bottom: 1px solid #bfdbfe;
-  }
-  section.light td {
-    color: #111827;
-    border-bottom: 1px solid #bfdbfe;
-  }
-  strong, a {
-    color: #1d4ed8;
-  }
+header: "LAB · PLANNING"
+footer: "Event Ticketing | Lab Planning"
 ---
 
-# Lab-Planing
+<style>
+@import url('./style.css');
+</style>
 
----
-<!-- _class: light -->
+<!-- _class: cover -->
+<!-- _paginate: false -->
 
-## Lab Plan
+<div class="logos"><div class="logo ofppt" role="img" aria-label="OFPPT logo"></div><div class="logo solicode" role="img" aria-label="Solicode logo"></div></div>
 
-1. Introduction
-2. Problems Encountered
-3. Solutions Implemented
+# Lab Planning
 
----
-<!-- _class: light -->
+Student: **Oussama Ech-charef**  
+Supervisor: **ES-Sarraj Fouad**
 
-## 1. Introduction
-
-Un besoin rencontré pendant la réalisation d’un blog peut devenir un lab technique.
-
-Chaque lab permet d’étudier une partie de la stack, de tester une technique ou d’évaluer une bibliothèque.
-
-**Objectif :** partir d’un besoin et rédiger un plan pratique que l’apprenant peut réaliser et vérifier.
-
----
-<!-- _class: light -->
-
-## 2. Problems Encountered
-
-- Un besoin trop large donne un lab difficile à terminer.
-- Mélanger le problème et la solution empêche de comprendre ce qu’il faut réellement résoudre.
-- Utiliser toutes les technologies dans chaque exercice ajoute une complexité inutile.
-- Sans livrable ni critère, il est difficile de vérifier la réussite.
+<!-- This lab is about planning a presentation. -->
 
 ---
 
-## 3. Solutions Implemented
+# 1. Plan
 
-Pour préparer un lab, définir :
+1. Stack and definitions
+2. Problem and need
+3. Solution and practice
+4. Results and conclusion
 
-1. **Le problème :** que faut-il résoudre pour le blog ?
-2. **La solution :** quel travail l’apprenant doit-il faire et quelles étapes suivre ?
-3. **La technologie :** que faut-il utiliser, tester ou évaluer, et pourquoi ?
-4. **La validation :** quel livrable et quels critères montreront que le problème est résolu ?
+**Example:** Lab Markdown for Event Ticketing
 
----
-
-## Problème ou solution ?
-
-**Problème :** décrit le besoin ou la difficulté sans imposer la façon de la résoudre.
-
-**Solution / travail à faire :** décrit les étapes concrètes qui permettront de répondre au besoin.
-
-**Exemple :**
-
-- Problème : les lecteurs ne peuvent pas commenter un article.
-- Travail : ajouter un formulaire, valider les données et enregistrer le commentaire.
+<!-- This plan helps us present a lab. -->
 
 ---
 
-## Stack du blog — serveur et données
+<!-- _class: compact -->
 
-| Technologie | Exemple de lab |
-|:---|:---|
-| Laravel | Traiter un formulaire |
-| PHP natif | Étudier une notion PHP |
-| MySQL | Enregistrer des articles |
-| JSON | Définir une réponse d’API |
+# 2. Technical Stack
 
-Choisir seulement les technologies nécessaires au lab.
+## Show the tools and their roles
 
----
+| Example tool | Role in Lab Markdown |
+| --- | --- |
+| Markdown | Write and organize the document |
+| Git | Track changes |
+| GitHub | Share the document |
 
-## Stack du blog — interfaces
+*For another lab, choose the tools used in that lab.*
 
-| Technologie | Exemple de lab |
-|:---|:---|
-| JavaScript | Appeler une API |
-| Alpine.js | Ajouter une interaction légère |
-| Tailwind CSS | Mettre en forme une page |
-| Preline UI | Intégrer un composant d’interface |
-| Kotlin | Consommer l’API depuis Android |
-
-Preline UI fournit des composants d’interface basés sur Tailwind CSS.
+<!-- These tools help us write and share the lab. -->
 
 ---
 
-## Définitions utiles
+# 3. Definitions
 
-- **Besoin :** fonctionnalité attendue par un utilisateur du blog.
-- **Problème :** difficulté précise qui empêche de répondre au besoin.
-- **Lab technique :** exercice limité qui permet d’apprendre en réalisant une tâche.
-- **Critère de validation :** résultat observable qui confirme que le travail est terminé.
+## Explain the important words
 
----
+- **Lab:** a small activity to learn and test.
+- **Markdown:** a simple way to write a document.
+- **Plan:** the parts of a presentation.
 
-## Exemple : publier un commentaire
-
-**Besoin :** les lecteurs doivent pouvoir réagir à un article.
-
-**Problème :** un lecteur ne peut pas publier de commentaire sous un article.
-
-**Travail à faire :**
-
-1. Ajouter un formulaire à la page de l’article.
-2. Valider les données.
-3. Enregistrer le commentaire avec Laravel et MySQL.
-4. Afficher le commentaire après l’envoi.
+<!-- These words help us understand the lab. -->
 
 ---
 
-## Technologie et résultat attendu
+# 4. Problem and Need
 
-**Technologies :** Laravel et MySQL pour le serveur et le stockage ; Blade, Tailwind CSS et Preline UI pour construire le formulaire et ses composants.
+## Explain the problem and why the lab helps
 
-Ajouter JavaScript ou Alpine.js uniquement si une interaction côté navigateur est demandée.
+**Example:** We need a clear document to present Event Ticketing.
 
-**Critères de validation :**
+**Need:** Learn how to organize text with Markdown.
 
-- un commentaire valide est enregistré pour le bon article ;
-- un champ vide est refusé avec un message compréhensible ;
-- le commentaire publié s’affiche sur la page.
+<!-- We need a clear document for the project. -->
 
 ---
 
-## À vous de pratiquer
+# 5. Solution and Practice
 
-Choisissez un besoin réel du blog, par exemple la recherche d’articles ou l’ajout d’une image.
+## Show the steps and test the work
 
-Complétez ce plan :
+**Example: Lab Markdown**
 
-1. **Besoin :** qui a besoin de quoi ?
-2. **Problème :** qu’est-ce qui manque ou ne fonctionne pas ?
-3. **Travail à faire :** quelles étapes l’apprenant va-t-il suivre ?
-4. **Technologie :** laquelle utiliser ou évaluer, et pourquoi ?
-5. **Livrable :** qu’est-ce que l’apprenant doit produire ?
-6. **Validation :** comment vérifier que le problème est résolu ?
+1. Write the project topic and goal.
+2. Add headings, lists, a table and code.
+3. Open the document and check the result.
 
-Gardez un objectif limité. N’ajoutez pas une technologie si elle n’est pas utile au problème.
+<!-- We write and check a Markdown document. -->
 
 ---
 
-## À retenir
+# 6. Results and Conclusion
 
-**Besoin du blog → problème clair → étapes de solution → technologie adaptée → résultat vérifiable**
+## Show the result and what you learned
 
-Un lab porte sur un objectif limité : n’ajoutez pas toute la stack si elle n’est pas nécessaire.
+**Example result:** A Markdown document about Event Ticketing.
+
+**What we learned:** How to write and organize a document.
+
+Use this plan for other labs and change it for each topic.
+
+<!-- We learned to make a clear document. -->
