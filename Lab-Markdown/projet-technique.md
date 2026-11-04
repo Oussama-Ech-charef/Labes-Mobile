@@ -1,45 +1,53 @@
-# Project Topic
+# Event Ticketing
 
-My project is an **event ticketing platform**. Users can find events and buy tickets online. It is *simple and useful*—not ~~only a list of events~~.
+## Project Topic
 
-- Find events
-- Buy tickets online
+<!-- My project helps people see events. -->
 
-![An event ticket](./image.jpg)
+**Event Ticketing** is a platform to manage and show events. It puts event information in *one place*.
 
-> “A good event starts with an easy ticket.”
+The project is ~~only about categories~~ about events, categories, and organizers.
+
+- **Event:** event information
+- **Category:** the event category
+- **Organizer:** the event organizer
+
+
+
+> Event Ticketing helps people see events.
 
 ---
 
-# Project Objective
+## Project Objective
 
-The goal is to make finding and buying event tickets easy. Users can see event information and book a ticket online. See the [Markdown Guide](https://www.markdownguide.org/).
+<!-- The goal is to add and see events. -->
 
-1. Find an event.
-2. Choose the number of tickets.
-3. Confirm the booking.
+The goal is to make events easy to add and see.
 
-- [ ] Add the event list
-- [ ] Add event details
-- [ ] Create ticket booking
-- [ ] Show booking confirmation
+1. Add an event.
+2. Show events.
+3. Add and see categories on the dashboard.
 
-| Feature | Purpose |
-|:---|:---|
-| Event | Main event information |
-| Category | Classify events |
-| Organizer | Manage the event |
-| Event list | Find events |
-| Event details | See event information |
-| Ticket booking | Buy tickets |
-| Booking confirmation | Check the booking |
+### Project tasks
 
-Example setting: `event`
+- [x] Add categories to the dashboard.
+- [x] Show categories on the dashboard.
+- [ ] Add and show events.
 
-```json
-{
-  "event": "Music Concert",
-  "tickets": 2,
-  "status": "confirmed"
-}
+### Database
+
+| Table | Information |
+| --- | --- |
+| Event | Events |
+| Category | Categories |
+| Organizer | Organizers |
+
+The database has three tables. One table is `Category`.
+
+```text
+Organizer → Event ← Category
 ```
+
+Learn more about Markdown in the [Markdown Guide](https://www.markdownguide.org/).
+
+
