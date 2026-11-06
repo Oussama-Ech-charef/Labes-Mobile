@@ -1,54 +1,54 @@
 # Event Ticketing
 
-## Project Topic
+## Sujet du projet
 
-<!-- Event Ticketing is a platform for events. -->
+<!-- Event Ticketing est une plateforme pour les événements. -->
 
-**Event Ticketing** is a platform to manage and show events. It puts event information in *one place*.
+**Event Ticketing** est une plateforme pour gérer et afficher des événements. Elle met les informations des événements dans *un seul endroit*.
 
-The project is ~~only about categories~~ about events, categories, and organizers.
+Le projet concerne ~~seulement les catégories~~ les événements, les catégories et les organisateurs.
 
-- **Event:** event information
-- **Category:** the event category
-- **Organizer:** the event organizer
+- **Event :** information sur un événement
+- **Category :** la catégorie de l'événement
+- **Organizer :** l'organisateur de l'événement
 
 
 
-> Event Ticketing helps people see events.
+> Event Ticketing aide les personnes à voir les événements.
 
 ---
 
-## Project Objective
+## Objectif du projet
 
-<!-- The goal is to make events easy to find. -->
+<!-- Le but est de trouver les événements facilement. -->
 
-The goal is to make events easy to add and see.
+Le but est d'ajouter et de voir les événements facilement.
 
-1. Add an event.
-2. Show events.
-3. Add and see categories on the dashboard.
+1. Ajouter un événement.
+2. Afficher les événements.
+3. Ajouter et voir les catégories sur le tableau de bord.
 
-### Project tasks
+### Tâches du projet
 
-- [x] Add categories to the dashboard.
-- [x] Show categories on the dashboard.
-- [ ] Add and show events.
+- [x] Ajouter les catégories au tableau de bord.
+- [x] Afficher les catégories sur le tableau de bord.
+- [ ] Ajouter et afficher les événements.
 
-### Database
+### Base de données
 
 | Table | Information |
 | --- | --- |
-| Event | Events |
-| Category | Categories |
-| Organizer | Organizers |
+| Event | Événements |
+| Category | Catégories |
+| Organizer | Organisateurs |
 
-The database has three tables. One table is `Category`.
+La base de données a trois tables. Une table est `Category`.
 
 ```text
 Organizer → Event ← Category
 ```
 
-Learn more about Markdown in the [Markdown Guide](https://www.markdownguide.org/).
+Pour apprendre Markdown, lis le [guide Markdown](https://www.markdownguide.org/).
 
 
 

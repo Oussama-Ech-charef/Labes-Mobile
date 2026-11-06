@@ -1,27 +1,27 @@
-Create a short Markdown document for my technical project.
+Crée un court document Markdown pour mon projet technique.
 
-My project is Event Ticketing. It is a platform to manage and show events.
+Mon projet est Event Ticketing. C'est une plateforme pour gérer et afficher des événements.
 
-The database has three tables: Event, Category, and Organizer.
-We can add and see categories on the dashboard.
+La base de données a trois tables : Event, Category et Organizer.
+Nous pouvons ajouter et voir des catégories sur le tableau de bord.
 
-Write two sections:
+Écris deux sections :
 
-1. Project Topic: Present the project.
-2. Project Objective: Explain the goal of the project.
+1. Sujet du projet : présente le projet.
+2. Objectif du projet : explique le but du projet.
 
-Use these Markdown elements:
+Utilise ces éléments Markdown :
 
-- Headings and paragraphs
-- Bold, italic, and strikethrough text
-- Bulleted and numbered lists
-- A task list
-- A link
-- A table
-- Inline code and a code block
-- A quote and a horizontal line
+- Titres et paragraphes
+- Texte en gras, en italique et barré
+- Listes à puces et numérotées
+- Une liste de tâches
+- Un lien
+- Un tableau
+- Du code en ligne et un bloc de code
+- Une citation et une ligne horizontale
 
-Use simple English at A1 level. Keep the text short.
+Utilise un français simple de niveau A1. Garde un texte court.
 
-Create one file: projet-technique.md.
-Do not add a logo or invent project information.
+Crée un seul fichier : projet-technique.md.
+N'ajoute pas de logo et n'invente pas d'informations sur le projet.
