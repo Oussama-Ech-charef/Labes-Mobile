@@ -30,7 +30,7 @@ footer: "Billetterie d’événements | Lab Stack"
 ## Billetterie d’événements
 
 - Une plateforme pour gérer et afficher des événements.
-- La base de données a trois tables : **Event, Category et Organizer**.
+- La base de données a trois tables : **Événement, Catégorie et Organisateur**.
 - Nous pouvons ajouter et voir les catégories sur le tableau de bord.
 
 <!-- Billetterie d’événements est une plateforme pour les événements. -->

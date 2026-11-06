@@ -8,9 +8,9 @@
 
 Le projet concerne ~~seulement les catégories~~ les événements, les catégories et les organisateurs.
 
-- **Event :** information sur un événement
-- **Category :** la catégorie de l'événement
-- **Organizer :** l'organisateur de l'événement
+- **Événement :** information sur un événement
+- **Catégorie :** la catégorie de l'événement
+- **Organisateur :** l'organisateur de l'événement
 
 
 
@@ -38,14 +38,14 @@ Le but est d'ajouter et de voir les événements facilement.
 
 | Table | Information |
 | --- | --- |
-| Event | Événements |
-| Category | Catégories |
-| Organizer | Organisateurs |
+| Événement | Événements |
+| Catégorie | Catégories |
+| Organisateur | Organisateurs |
 
-La base de données a trois tables. Une table est `Category`.
+La base de données a trois tables. Une table est `Catégorie`.
 
 ```text
-Organizer → Event ← Category
+Organisateur → Événement ← Catégorie
 ```
 
 Pour apprendre Markdown, lis le [guide Markdown](https://www.markdownguide.org/).

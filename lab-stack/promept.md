@@ -1,7 +1,7 @@
 Crée une courte présentation Marp pour mon Lab Stack.
 
 Mon projet est Billetterie d’événements. C'est une plateforme pour gérer et afficher des événements.
-La base de données a trois tables : Event, Category et Organizer.
+La base de données a trois tables : Événement, Catégorie et Organisateur.
 Nous pouvons ajouter et voir les catégories sur le tableau de bord.
 
 Crée 5 diapositives simples :

@@ -2,7 +2,7 @@ Crée une courte présentation Marp pour mon projet technique.
 
 Mon projet est Billetterie d’événements. C'est une plateforme pour ajouter et afficher des événements.
 
-La base de données a seulement trois tables : Event, Category et Organizer.
+La base de données a seulement trois tables : Événement, Catégorie et Organisateur.
 
 Crée 8 diapositives simples :
 
@@ -12,7 +12,7 @@ Crée 8 diapositives simples :
 3. Besoin : explique le problème et pourquoi le projet est nécessaire.
 4. Analyse : montre les besoins du projet et les fonctions principales.
 5. Conception : montre ce modèle simple :
-   Organizer → Event ← Category.
+   Organisateur → Événement ← Catégorie.
 6. Technologies : montre JSON, JavaScript, Tailwind CSS et PHP.
    Donne un rôle court pour chaque technologie.
 7. Prototype : dis que nous pouvons ajouter et voir les catégories sur le tableau de bord.

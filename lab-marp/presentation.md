@@ -68,7 +68,7 @@ Elle met les événements au même endroit.
 
 ## Modèle de la base de données
 
-**Organizer → Event ← Category**
+**Organisateur → Événement ← Catégorie**
 
 Un organisateur peut avoir des événements. Chaque événement a une catégorie.
 
@@ -109,7 +109,7 @@ Nous pouvons ajouter et voir les catégories sur le tableau de bord.
 
 Le projet est une plateforme pour **ajouter et afficher des événements**.
 
-Sa base de données a trois tables : **Event, Category et Organizer**.
+Sa base de données a trois tables : **Événement, Catégorie et Organisateur**.
 
 <!-- Ce projet met les événements au même endroit. -->
 
