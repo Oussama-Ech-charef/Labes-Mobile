@@ -3,8 +3,8 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-header: "LAB · PLANNING"
-footer: "Billetterie d’événements | Lab Planning"
+header: "LAB · PLANIFICATION"
+footer: "Billetterie d’événements | Lab Planification"
 ---
 
 <style>
@@ -16,92 +16,92 @@ footer: "Billetterie d’événements | Lab Planning"
 
 <div class="logos"><div class="logo ofppt" role="img" aria-label="OFPPT logo"></div><div class="logo solicode" role="img" aria-label="Solicode logo"></div></div>
 
-# Lab Planning
+# Lab Planification
 
-Student: **Oussama Ech-charef**  
-Supervisor: **ES-Sarraj Fouad**
+Étudiant : **Oussama Ech-charef**\
+Superviseur : **ES-Sarraj Fouad**
 
-<!-- This lab is about planning a presentation. -->
+<!-- Ce lab est sur la planification d'une présentation. -->
 
 ---
 
 # 1. Plan
 
-1. Stack and definitions
-2. Problem and need
-3. Solution and practice
-4. Results and conclusion
+1. Stack et définitions
+2. Problème et besoin
+3. Solution et pratique
+4. Résultats et conclusion
 
-**Example:** Lab Markdown for Billetterie d’événements
+**Exemple :** Lab Markdown pour Billetterie d’événements
 
-<!-- This plan helps us present a lab. -->
+<!-- Ce plan nous aide à présenter un lab. -->
 
 ---
 
 <!-- _class: compact -->
 
-# 2. Technical Stack
+# 2. Stack technique
 
-## Show the tools and their roles
+## Montrer les outils et leurs rôles
 
-| Example tool | Role in Lab Markdown |
+| Outil exemple | Rôle dans Lab Markdown |
 | --- | --- |
-| Markdown | Write and organize the document |
-| Git | Track changes |
-| GitHub | Share the document |
+| Markdown | Écrire et organiser le document |
+| Git | Suivre les changements |
+| GitHub | Partager le document |
 
-*For another lab, choose the tools used in that lab.*
+*Pour un autre lab, choisis les outils utilisés dans ce lab.*
 
-<!-- These tools help us write and share the lab. -->
-
----
-
-# 3. Definitions
-
-## Explain the important words
-
-- **Lab:** a small activity to learn and test.
-- **Markdown:** a simple way to write a document.
-- **Plan:** the parts of a presentation.
-
-<!-- These words help us understand the lab. -->
+<!-- Ces outils nous aident à écrire et partager le lab. -->
 
 ---
 
-# 4. Problem and Need
+# 3. Définitions
 
-## Explain the problem and why the lab helps
+## Expliquer les mots importants
 
-**Example:** We need a clear document to present Billetterie d’événements.
+- **Lab :** une petite activité pour apprendre et tester.
+- **Markdown :** une façon simple d'écrire un document.
+- **Plan :** les parties d'une présentation.
 
-**Need:** Learn how to organize text with Markdown.
-
-<!-- We need a clear document for the project. -->
-
----
-
-# 5. Solution and Practice
-
-## Show the steps and test the work
-
-**Example: Lab Markdown**
-
-1. Write the project topic and goal.
-2. Add headings, lists, a table and code.
-3. Open the document and check the result.
-
-<!-- We write and check a Markdown document. -->
+<!-- Ces mots nous aident à comprendre le lab. -->
 
 ---
 
-# 6. Results and Conclusion
+# 4. Problème et besoin
 
-## Show the result and what you learned
+## Expliquer le problème et pourquoi le lab aide
 
-**Example result:** A Markdown document about Billetterie d’événements.
+**Exemple :** Nous avons besoin d'un document clair pour présenter Billetterie d’événements.
 
-**What we learned:** How to write and organize a document.
+**Besoin :** Apprendre à organiser le texte avec Markdown.
 
-Use this plan for other labs and change it for each topic.
+<!-- Nous avons besoin d'un document clair pour le projet. -->
 
-<!-- We learned to make a clear document. -->
+---
+
+# 5. Solution et pratique
+
+## Montrer les étapes et tester le travail
+
+**Exemple : Lab Markdown**
+
+1. Écrire le sujet et le but du projet.
+2. Ajouter des titres, des listes, un tableau et du code.
+3. Ouvrir le document et vérifier le résultat.
+
+<!-- Nous écrivons et vérifions un document Markdown. -->
+
+---
+
+# 6. Résultats et conclusion
+
+## Montrer le résultat et ce que vous avez appris
+
+**Résultat exemple :** Un document Markdown sur Billetterie d’événements.
+
+**Ce que nous avons appris :** Comment écrire et organiser un document.
+
+Utilise ce plan pour les autres labs et change-le pour chaque sujet.
+
+<!-- Nous avons appris à faire un document clair. -->
