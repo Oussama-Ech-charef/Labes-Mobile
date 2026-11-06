@@ -1,10 +1,10 @@
-# Event Ticketing
+# Billetterie d’événements
 
 ## Sujet du projet
 
-<!-- Event Ticketing est une plateforme pour les événements. -->
+<!-- Billetterie d’événements est une plateforme pour les événements. -->
 
-**Event Ticketing** est une plateforme pour gérer et afficher des événements. Elle met les informations des événements dans *un seul endroit*.
+**Billetterie d’événements** est une plateforme pour gérer et afficher des événements. Elle met les informations des événements dans *un seul endroit*.
 
 Le projet concerne ~~seulement les catégories~~ les événements, les catégories et les organisateurs.
 
@@ -14,7 +14,7 @@ Le projet concerne ~~seulement les catégories~~ les événements, les catégori
 
 
 
-> Event Ticketing aide les personnes à voir les événements.
+> Billetterie d’événements aide les personnes à voir les événements.
 
 ---
 

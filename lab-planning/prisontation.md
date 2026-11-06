@@ -4,7 +4,7 @@ theme: default
 paginate: true
 size: 16:9
 header: "LAB · PLANNING"
-footer: "Event Ticketing | Lab Planning"
+footer: "Billetterie d’événements | Lab Planning"
 ---
 
 <style>
@@ -32,7 +32,7 @@ Supervisor: **ES-Sarraj Fouad**
 3. Solution and practice
 4. Results and conclusion
 
-**Example:** Lab Markdown for Event Ticketing
+**Example:** Lab Markdown for Billetterie d’événements
 
 <!-- This plan helps us present a lab. -->
 
@@ -72,7 +72,7 @@ Supervisor: **ES-Sarraj Fouad**
 
 ## Explain the problem and why the lab helps
 
-**Example:** We need a clear document to present Event Ticketing.
+**Example:** We need a clear document to present Billetterie d’événements.
 
 **Need:** Learn how to organize text with Markdown.
 
@@ -98,7 +98,7 @@ Supervisor: **ES-Sarraj Fouad**
 
 ## Show the result and what you learned
 
-**Example result:** A Markdown document about Event Ticketing.
+**Example result:** A Markdown document about Billetterie d’événements.
 
 **What we learned:** How to write and organize a document.
 

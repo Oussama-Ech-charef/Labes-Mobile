@@ -4,7 +4,7 @@ theme: default
 paginate: true
 size: 16:9
 header: "PROJECT · LAB STACK"
-footer: "Event Ticketing | Lab Stack"
+footer: "Billetterie d’événements | Lab Stack"
 ---
 
 <style>
@@ -16,7 +16,7 @@ footer: "Event Ticketing | Lab Stack"
 
 <div class="logos"><div class="logo ofppt" role="img" aria-label="OFPPT logo"></div><div class="logo solicode" role="img" aria-label="Solicode logo"></div></div>
 
-# Event Ticketing
+# Billetterie d’événements
 
 **Project & Lab Stack**
 
@@ -27,13 +27,13 @@ Student: **Oussama Ech-charef**
 
 # Technical Project
 
-## Event Ticketing
+## Billetterie d’événements
 
 - A platform to manage and show events.
 - The database has three tables: **Event, Category and Organizer**.
 - We can add and see categories on the dashboard.
 
-<!-- Event Ticketing is a platform for events. -->
+<!-- Billetterie d’événements is a platform for events. -->
 
 ---
 

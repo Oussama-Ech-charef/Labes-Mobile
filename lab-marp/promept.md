@@ -1,38 +1,38 @@
-Create a short Marp presentation for my technical project.
+Crée une courte présentation Marp pour mon projet technique.
 
-My project is Event Ticketing. It is a platform to add and show events.
+Mon projet est Billetterie d’événements. C'est une plateforme pour ajouter et afficher des événements.
 
-The database has only three tables: Event, Category, and Organizer.
+La base de données a seulement trois tables : Event, Category et Organizer.
 
-Create 8 simple slides:
+Crée 8 diapositives simples :
 
-1. Cover: OFPPT logo, Solicode logo, project title, student name
-   (Oussama Ech-charef), and supervisor name.
-2. Introduction: Present the project.
-3. Need: Explain the problem and why we need the project.
-4. Analysis: Show the project needs and main functions.
-5. Design: Show this simple model:
+1. Couverture : logo OFPPT, logo Solicode, titre du projet, nom de l'étudiant
+   (Oussama Ech-charef) et nom du superviseur.
+2. Introduction : présente le projet.
+3. Besoin : explique le problème et pourquoi le projet est nécessaire.
+4. Analyse : montre les besoins du projet et les fonctions principales.
+5. Conception : montre ce modèle simple :
    Organizer → Event ← Category.
-6. Technologies: Show JSON, JavaScript, Tailwind CSS, and PHP.
-   Give a short role for each one.
-7. Prototype: Say that we can add and see categories on the dashboard.
-8. Conclusion: Give a short conclusion about the project.
+6. Technologies : montre JSON, JavaScript, Tailwind CSS et PHP.
+   Donne un rôle court pour chaque technologie.
+7. Prototype : dis que nous pouvons ajouter et voir les catégories sur le tableau de bord.
+8. Conclusion : donne une courte conclusion sur le projet.
 
-Use simple English at A1 level. Keep the text short.
+Utilise un français simple de niveau A1. Garde un texte court.
 
-Use Marp Markdown, slide directives, titles, lists, and tables.
-Add one short presenter note in a Markdown comment on each slide.
-Use the OFPPT and Solicode logos.
+Utilise Markdown Marp, les directives des diapositives, les titres, les listes et les tableaux.
+Ajoute une courte note pour le présentateur dans un commentaire Markdown sur chaque diapositive.
+Utilise les logos OFPPT et Solicode.
 
-Create only two files:
+Crée seulement deux fichiers :
 
-- presentation.md: slides and presenter notes.
-- style.css: colors, fonts, logos, and design.
+- presentation.md : diapositives et notes pour le présentateur.
+- style.css : couleurs, polices, logos et design.
 
-Use @import in presentation.md to connect style.css.
-Use a clean and modern design.
+Utilise @import dans presentation.md pour connecter style.css.
+Utilise un design simple et moderne.
 
-Do not create an HTML file. Do not add new tables or invent project
-information. Do not use .agent, skills, or roles.
+Ne crée pas de fichier HTML. N'ajoute pas de nouvelles tables et n'invente pas
+d'informations sur le projet. N'utilise pas .agent, skills ou roles.
 
-If the supervisor name is not available, write [Name to add].
+Si le nom du superviseur n'est pas disponible, écris [Nom à ajouter].

@@ -1,6 +1,6 @@
 Crée un court document Markdown pour mon projet technique.
 
-Mon projet est Event Ticketing. C'est une plateforme pour gérer et afficher des événements.
+Mon projet est Billetterie d’événements. C'est une plateforme pour gérer et afficher des événements.
 
 La base de données a trois tables : Event, Category et Organizer.
 Nous pouvons ajouter et voir des catégories sur le tableau de bord.

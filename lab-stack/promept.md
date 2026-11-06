@@ -1,6 +1,6 @@
 Create a short Marp presentation for my Lab Stack.
 
-My project is Event Ticketing. It is a platform to manage and show events.
+My project is Billetterie d’événements. It is a platform to manage and show events.
 The database has three tables: Event, Category, and Organizer.
 We can add and see categories on the dashboard.
 
@@ -8,7 +8,7 @@ Create 5 simple slides:
 
 1. Cover: OFPPT logo, Solicode logo, project title, and student name
    (Oussama Ech-charef).
-2. Technical Project: Present Event Ticketing.
+2. Technical Project: Present Billetterie d’événements.
 3. Project Stack: Show the technologies and tools.
 4. Understanding Labs: Explain what a Lab is, why we do Labs,
    and how Labs help the project.

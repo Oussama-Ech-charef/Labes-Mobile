@@ -2,8 +2,8 @@
 marp: true
 theme: default
 paginate: true
-header: "TECHNICAL PROJECT · EVENT TICKETING"
-footer: "Event Ticketing | Lab presentation"
+header: "PROJET TECHNIQUE · BILLETTERIE D’ÉVÉNEMENTS"
+footer: "Billetterie d’événements | Présentation du lab"
 ---
 
 <style>
@@ -15,12 +15,12 @@ footer: "Event Ticketing | Lab presentation"
 
 <div class="logos"><div class="logo ofppt" role="img" aria-label="OFPPT logo"></div><div class="logo solicode" role="img" aria-label="Solicode logo"></div></div>
 
-# Event Ticketing
+# Billetterie d’événements
 
-**Lab marp**
+**Lab Marp**
 
-Student: **Oussama Ech-charef**  
-Supervisor: **ES-Sarraj Fouad**
+Étudiant : **Oussama Ech-charef**\
+Superviseur : **ES-Sarraj Fouad**
 
 
 
@@ -28,76 +28,76 @@ Supervisor: **ES-Sarraj Fouad**
 
 # 1. Introduction
 
-## Events in one place
+## Les événements au même endroit
 
-Event Ticketing is a platform to **add and show events**.
+Billetterie d’événements est une plateforme pour **ajouter et afficher des événements**.
 
-It puts events in one place.
+Elle met les événements au même endroit.
 
-<!-- Event Ticketing is a platform for events. -->
-
----
-
-# 2. Need
-
-## Why do we need it?
-
-- Events can be hard to find.
-- This platform puts events in one place.
-- People can find events more easily.
-
-<!-- People need an easy way to find events. -->
+<!-- Billetterie d’événements est une plateforme pour les événements. -->
 
 ---
 
-# 3. Analysis
+# 2. Besoin
 
-## Project needs
+## Pourquoi est-ce utile ?
 
-| Need | Function |
+- Les événements peuvent être difficiles à trouver.
+- Cette plateforme met les événements au même endroit.
+- Les personnes peuvent trouver les événements plus facilement.
+
+<!-- Les personnes ont besoin d'un moyen simple pour trouver des événements. -->
+
+---
+
+# 3. Analyse
+
+## Besoins du projet
+
+| Besoin | Fonction |
 | --- | --- |
-| Manage events | Add an event |
-| Show events | Display events |
-| Group events | Use categories and organizers |
+| Gérer les événements | Ajouter un événement |
+| Afficher les événements | Voir les événements |
+| Grouper les événements | Utiliser les catégories et les organisateurs |
 
-<!-- The project needs pages for events. -->
+<!-- Le projet a besoin de pages pour les événements. -->
 
 ---
 
-# 4. Design
+# 4. Conception
 
-## Database model
+## Modèle de la base de données
 
 **Organizer → Event ← Category**
 
-An organizer can have events. Each event has a category.
+Un organisateur peut avoir des événements. Chaque événement a une catégorie.
 
-<!-- Each event has an organizer and a category. -->
+<!-- Chaque événement a un organisateur et une catégorie. -->
 
 ---
 
-# 5. Realisation · Technologies
+# 5. Réalisation · Technologies
 
-## Project tools
+## Outils du projet
 
-| Technology | Role |
+| Technologie | Rôle |
 | --- | --- |
-| JSON | Keep and send data |
-| JavaScript | Make pages work |
-| Tailwind CSS | Make pages look good |
-| PHP | Work with data on the server |
+| JSON | Garder et envoyer les données |
+| JavaScript | Faire fonctionner les pages |
+| Tailwind CSS | Faire de belles pages |
+| PHP | Travailler avec les données sur le serveur |
 
-<!-- We use four technologies in this project. -->
+<!-- Nous utilisons quatre technologies dans ce projet. -->
 
 ---
 
-# 5. Realisation · Prototype
+# 5. Réalisation · Prototype
 
-## Project pages
+## Pages du projet
 
-We can add and see categories on the dashboard.
+Nous pouvons ajouter et voir les catégories sur le tableau de bord.
 
-<!-- The dashboard can add and show categories. -->
+<!-- Le tableau de bord peut ajouter et afficher les catégories. -->
 
 ---
 
@@ -105,13 +105,13 @@ We can add and see categories on the dashboard.
 
 # 6. Conclusion
 
-## Event Ticketing
+## Billetterie d’événements
 
-The project is a platform to **add and show events**.
+Le projet est une plateforme pour **ajouter et afficher des événements**.
 
-Its database has three tables: **Event, Category and Organizer**.
+Sa base de données a trois tables : **Event, Category et Organizer**.
 
-<!-- This project brings events together. -->
+<!-- Ce projet met les événements au même endroit. -->
 
 
 
