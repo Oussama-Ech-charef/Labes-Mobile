@@ -1,41 +1,41 @@
-Create a short Marp presentation for my Lab Stack.
+Crée une courte présentation Marp pour mon Lab Stack.
 
-My project is Billetterie d’événements. It is a platform to manage and show events.
-The database has three tables: Event, Category, and Organizer.
-We can add and see categories on the dashboard.
+Mon projet est Billetterie d’événements. C'est une plateforme pour gérer et afficher des événements.
+La base de données a trois tables : Event, Category et Organizer.
+Nous pouvons ajouter et voir les catégories sur le tableau de bord.
 
-Create 5 simple slides:
+Crée 5 diapositives simples :
 
-1. Cover: OFPPT logo, Solicode logo, project title, and student name
+1. Couverture : logo OFPPT, logo Solicode, titre du projet et nom de l'étudiant
    (Oussama Ech-charef).
-2. Technical Project: Present Billetterie d’événements.
-3. Project Stack: Show the technologies and tools.
-4. Understanding Labs: Explain what a Lab is, why we do Labs,
-   and how Labs help the project.
-5. Labs to Complete: Show the list of Labs in four phases.
+2. Projet technique : présente Billetterie d’événements.
+3. Stack du projet : montre les technologies et les outils.
+4. Comprendre les labs : explique ce qu'est un lab, pourquoi nous faisons des labs
+   et comment les labs aident le projet.
+5. Labs à faire : montre la liste des labs en quatre phases.
 
-Technologies:
-Alpine.js, Tailwind CSS, Preline, Native PHP, Laravel, MySQL,
-Kotlin, JavaScript, and JSON.
+Technologies :
+Alpine.js, Tailwind CSS, Preline, PHP natif, Laravel, MySQL,
+Kotlin, JavaScript et JSON.
 
-Tools:
+Outils :
 Git, GitHub, Agents, Markdown, OpenCode, Marp, OmniRoute,
-Antigravity, and GitHub Copilot.
+Antigravity et GitHub Copilot.
 
-Use the Lab list from the example, with the same four phases.
+Utilise la liste des labs de l'exemple, avec les mêmes quatre phases.
 
-Use simple English at A1 level. Keep the text short.
-Use Marp Markdown, slide directives, titles, lists, and tables.
-Add one short presenter note in a Markdown comment on each slide.
-Use the OFPPT and Solicode logos.
+Utilise un français simple de niveau A1. Garde un texte court.
+Utilise Markdown Marp, les directives des diapositives, les titres, les listes et les tableaux.
+Ajoute une courte note pour le présentateur dans un commentaire Markdown sur chaque diapositive.
+Utilise les logos OFPPT et Solicode.
 
-Create two files:
+Crée deux fichiers :
 
-- presentation.md: slides and presenter notes.
-- style.css: colors, fonts, logos, and design.
+- presentation.md : diapositives et notes pour le présentateur.
+- style.css : couleurs, polices, logos et design.
 
-Use @import in presentation.md to connect style.css.
-Use a clean and modern design.
+Utilise @import dans presentation.md pour connecter style.css.
+Utilise un design simple et moderne.
 
-Do not create an HTML file. Do not add new tables to the database
-or invent project information.
+Ne crée pas de fichier HTML. N'ajoute pas de nouvelles tables à la base de données
+et n'invente pas d'informations sur le projet.

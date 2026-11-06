@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-header: "PROJECT · LAB STACK"
+header: "PROJET · LAB STACK"
 footer: "Billetterie d’événements | Lab Stack"
 ---
 
@@ -18,59 +18,59 @@ footer: "Billetterie d’événements | Lab Stack"
 
 # Billetterie d’événements
 
-**Project & Lab Stack**
+**Projet et Lab Stack**
 
-Student: **Oussama Ech-charef**
+Étudiant : **Oussama Ech-charef**
 
 
 ---
 
-# Technical Project
+# Projet technique
 
 ## Billetterie d’événements
 
-- A platform to manage and show events.
-- The database has three tables: **Event, Category and Organizer**.
-- We can add and see categories on the dashboard.
+- Une plateforme pour gérer et afficher des événements.
+- La base de données a trois tables : **Event, Category et Organizer**.
+- Nous pouvons ajouter et voir les catégories sur le tableau de bord.
 
-<!-- Billetterie d’événements is a platform for events. -->
+<!-- Billetterie d’événements est une plateforme pour les événements. -->
 
 ---
 
 <!-- _class: stack -->
 
-# Project Stack
+# Stack du projet
 
-| Technologies | Tools |
+| Technologies | Outils |
 | --- | --- |
 | Alpine.js · Tailwind CSS · Preline | Git · GitHub · Agents |
-| Native PHP · Laravel · MySQL | Markdown · OpenCode · Marp |
+| PHP natif · Laravel · MySQL | Markdown · OpenCode · Marp |
 | Kotlin · JavaScript · JSON | OmniRoute · Antigravity · GitHub Copilot |
 
-<!-- We use these tools to build the project. -->
+<!-- Nous utilisons ces outils pour construire le projet. -->
 
 ---
 
-# Understanding Labs
+# Comprendre les labs
 
-## Learn by doing
+## Apprendre en pratiquant
 
-- A lab is a small activity to learn and test.
-- We use labs to discover tools and test ideas.
-- Labs help us build parts of the project.
+- Un lab est une petite activité pour apprendre et tester.
+- Nous utilisons les labs pour découvrir des outils et tester des idées.
+- Les labs nous aident à construire des parties du projet.
 
-<!-- A lab helps us learn and test ideas. -->
+<!-- Un lab nous aide à apprendre et à tester des idées. -->
 
 ---
 
 <!-- _class: labs -->
 
-# Labs to Complete
+# Labs à faire
 
-| Phase 1 · Foundations & Tools | Phase 2 · Methods & Collaboration | Phase 3 · Development & Languages | Phase 4 · Project & Production |
+| Phase 1 · Bases et outils | Phase 2 · Méthodes et collaboration | Phase 3 · Développement et langages | Phase 4 · Projet et production |
 | --- | --- | --- | --- |
-| 1. What is a Lab?<br>2. Markdown<br>3. GitHub Pages<br>4. Antigravity<br>5. Marp<br>6. OpenCode<br>7. Pandoc<br>8. OmniRoute | 11. 2TUP<br>12. Design Thinking<br>13. GitHub Issues<br>14. Scrum<br>15. GitHub Copilot<br>16. ASCII | 9. Tailwind CSS<br>10. Preline<br>17. OOP<br>18. Native PHP<br>19. Laravel<br>20. Kotlin<br>21. ES7 JavaScript<br>22. JS Errors<br>23. Prompt-Agent-Skill | 24. AI Communication<br>25. Tech Watch<br>26. Starter<br>27. Planning<br>28. Git<br>29. Lab Stack<br>30. Agent |
+| 1. Qu'est-ce qu'un lab ?<br>2. Markdown<br>3. GitHub Pages<br>4. Antigravity<br>5. Marp<br>6. OpenCode<br>7. Pandoc<br>8. OmniRoute | 11. 2TUP<br>12. Design Thinking<br>13. GitHub Issues<br>14. Scrum<br>15. GitHub Copilot<br>16. ASCII | 9. Tailwind CSS<br>10. Preline<br>17. OOP<br>18. PHP natif<br>19. Laravel<br>20. Kotlin<br>21. JavaScript ES7<br>22. Erreurs JS<br>23. Prompt-Agent-Skill | 24. Communication avec l'IA<br>25. Veille technologique<br>26. Starter<br>27. Planning<br>28. Git<br>29. Lab Stack<br>30. Agent |
 
-<!-- These labs have four phases. -->
+<!-- Ces labs ont quatre phases. -->
 
 
