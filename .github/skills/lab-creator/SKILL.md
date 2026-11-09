@@ -1,78 +1,21 @@
 ---
 name: lab-creator
-description: Creates organized educational labs in separate subdirectories, following a consistent structure of introduction, definition, and practical exercises.
+description: "Créer ou adapter les livrables d'un lab à partir de son README et d'un plan générique. À utiliser pour préparer le contenu d'un lab et son plan de présentation."
 ---
 
-# Lab Creator Skill
+# Création de lab
 
-## Purpose
-Create well-organized educational labs in the repository. Each lab must focus on one specific subject and be stored in its own subdirectory.
+Cette skill orchestre la préparation des livrables d'un lab. Pour la mise en forme de la présentation, appliquer aussi la skill `marp`. Pour créer une structure de fichiers ou une skill, appliquer la skill `skill-creator`.
 
-## Rules
-1. Create every lab inside the `labs/` directory.
-2. Give each lab a unique, numbered directory name using this format: `lab-01-subject-name`.
-3. Each lab must contain the following Markdown files:
-   * `README.md`
-   * `introduction.md`
-   * `definition.md`
-   * `practical.md`
-   * `presentation.md`
-4. Write content in clear, simple English unless another language is requested.
-5. Keep explanations concise, accurate, and suitable for students.
-6. Keep every new lab as simple as possible: focus on its learning objectives, use only the explanations, steps, examples, and tools students need, and remove repetition or unnecessary detail.
-7. Do not invent technical facts or present unverified information as fact.
-8. Avoid duplicating existing labs. Inspect the repository before creating a new lab.
-9. Preserve existing files and never overwrite user content without permission.
+## Règles
 
-## Lab Structure
+- Conserver à l'identique le titre/slug existant du lab, au format `lab-*`. Ne pas le remplacer par un titre reformulé.
+- Lire le README du lab et le plan générique disponible. Si un fichier `template-plan.md` est absent, rechercher le plan générique du workspace et l'utiliser sans prétendre qu'il porte un autre nom.
+- Mettre le plan de présentation dans `presentation.md`. Ne pas dupliquer ni proposer ce plan dans le README.
+- Rédiger en français et adapter les sections génériques aux objectifs et aux notions réellement présents dans le README.
+- Pour un lab technique, prévoir un Quick Start et un Hello World exécutable; vérifier que les commandes et versions correspondent au projet.
+- Ne jamais inventer le problème vécu ni la solution choisie par l'étudiant. Avant de rédiger ces sections, lui demander : « Quel problème concret rencontrez-vous ? » et « Quelle solution proposez-vous ? ». Si les réponses manquent, laisser ces contenus à compléter et ne pas les présenter comme des faits.
+- Ne pas ajouter de diapositive de conclusion ou de remerciements.
+- Ne pas exécuter de commande Git si l'utilisateur l'interdit.
 
-### 1. Introduction
-* Introduce the subject.
-* Explain its purpose and importance.
-* Present the learning objectives.
 
-### 2. Definition
-* Define the subject and its key concepts.
-* Explain important terminology.
-* Include examples when useful.
-* Distinguish related concepts clearly.
-
-### 3. Practical
-* Provide step-by-step instructions.
-* Include practical exercises related to the subject.
-* Give expected results.
-* Include a challenge exercise when appropriate.
-* Provide solutions separately when requested.
-
-### 4. Presentation
-* Create a `presentation.md` for the lab.
-* The presentation should summarize the key concepts of the lab.
-* Include a plan slide using this exact structure:
-  * `## Lab Plan`
-  * `1. Introduction`
-  * `2. Problems Encountered`
-  * `3. Solutions Implemented`
-* Use a presentation-friendly format (e.g., Marp directives).
-
-## README.md Requirements
-The lab README must include:
-* Lab title and number.
-* Subject.
-* Learning objectives.
-* Links to `introduction.md`, `definition.md`, `practical.md`, and `presentation.md`.
-
-## Main Repository README
-Maintain the root `labs/README.md` as an index of all labs. Include each lab's number, subject, short description, and link to its directory README.
-
-## Workflow
-1. Inspect the repository and existing labs.
-2. Identify the subject requested by the user.
-3. Select the next available lab number.
-4. Create the lab directory and required files.
-5. Write the introduction, definition, practical, and presentation sections.
-6. Update the main lab index.
-7. Verify that all files exist and all relative links work.
-8. Summarize the files created and any checks performed.
-
-## Important
-Create actual files in the repository rather than only displaying their contents in the chat. If the subject is missing, ask the user which subject the lab should cover.
