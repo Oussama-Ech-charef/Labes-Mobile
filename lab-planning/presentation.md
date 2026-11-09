@@ -1,10 +1,10 @@
 ---
 marp: true
-theme: event-lab
+theme: default
 paginate: true
 size: 16:9
-header: "LAB · PLANIFICATION"
-footer: "Billetterie d’événements"
+header: "PROJET TECHNIQUE · BILLETTERIE D’ÉVÉNEMENTS"
+footer: "Présentation du projet"
 ---
 
 <style>
@@ -19,148 +19,165 @@ footer: "Billetterie d’événements"
   <div class="logo solicode" role="img" aria-label="Logo Solicode"></div>
 </div>
 
-# LAB PLANNING
+# Billetterie d’événements
 
-## Préparer et présenter un Lab technique
+## Présentation du projet technique
 
-### Plan générique de présentation des Labs
+**Apprenant :** Oussama Ech-charef  
+**Encadrant :** ES-Sarraj Fouad
 
-**Projet : Billetterie d’événements**
+---
+<!-- _class: light -->
 
-Étudiant : **Oussama Ech-charef**
-Encadrant : **ES-Saraj Fouad**
+## Plan
 
-<!-- Note présentateur : Présenter le projet comme une plateforme pour gérer et afficher des événements. -->
+1. Stack technique
+2. Définitions
+3. Problème et besoin
+4. Solution et pratique
+5. Résultats et démonstration
+6. Conclusion et apprentissages
+
+Un parcours de présentation adapté à la billetterie d’événements.
 
 ---
 
-# 2. Plan de la présentation
+## Stack technique
 
-1. **Page de garde** — Présentation du Lab
-2. **Plan** — Parties de la présentation
-3. **Stack technique** — Technologies et outils
-4. **Définitions** — Mots et notions importantes
-5. **Problème et besoin** — Besoin de la plateforme
-6. **Solution et pratique** — Étapes et vérification
-7. **Résultats et conclusion** — Bilan du projet
-
-**Fil conducteur :** appliquer ce plan générique au projet technique.
-
-<!-- Note présentateur : Annoncer les sept parties et expliquer que chaque partie sera adaptée à la billetterie d’événements. -->
-
----
-
-<!-- _class: compact -->
-
-# 3. Stack technique
-
-## Technologies et outils utilisés
-
-| Technologie / outil | Rôle |
+| Technologie | Rôle dans le projet |
 | :--- | :--- |
-| **Markdown** | Rédiger les diapositives et les notes |
-| **Marp** | Transformer le Markdown en présentation |
-| **VS Code** | Modifier les fichiers du Lab |
-| **Git / GitHub** | Versionner et partager le livrable |
+| **PHP** | Traiter les données côté serveur |
+| **JavaScript** | Ajouter le comportement interactif aux pages |
+| **JSON** | Organiser et échanger les données |
+| **Tailwind CSS** | Construire l'interface utilisateur |
+| **Table de données** | Conserver les événements, catégories et organisateurs |
+| **Git / GitHub** | Versionner et partager le projet |
 
-
----
-### Éléments techniques connus du projet
-
-- **Base de données :** contient les tables **Événement**, **Catégorie** et **Organisateur**.
-- **Tableau de bord :** permet d’ajouter et de voir les catégories.
-- **Plateforme :** permet de gérer et d’afficher les événements.
-
-*Les langages et frameworks de l’application ne sont pas précisés dans les informations disponibles.*
-
-<!-- Note présentateur : Présenter les outils du livrable puis les éléments techniques confirmés du projet. Ne pas ajouter de langage ou framework non confirmé. -->
+Cette stack est présentée selon les technologies documentées pour le projet.
 
 ---
+<!-- _class: light -->
 
-# 4. Définitions
+## Définitions
 
-## Notions importantes
-
-- **Lab :** activité pratique pour apprendre et appliquer des connaissances.
-- **Plan générique :** structure commune pour organiser les présentations.
-- **Stack technique :** ensemble des technologies et outils utilisés dans un Lab.
-- **Billetterie d’événements :** plateforme pour gérer et afficher des événements.
-- **Événement :** élément géré et affiché par la plateforme.
-- **Catégorie :** donnée que l’on peut ajouter et consulter depuis le tableau de bord.
-- **Organisateur :** donnée représentée par une table de la base.
-
-<!-- Note présentateur : Relier les notions de planification au projet et rappeler les trois tables existantes. -->
+- **Billetterie d’événements** — plateforme qui permet de gérer et d'afficher des événements.
+- **Événement** — information sur une activité proposée sur la plateforme.
+- **Catégorie** — classification utilisée pour organiser les événements.
+- **Organisateur** — personne ou entité associée à un événement.
+- **Tableau de bord** — espace qui permet de gérer les données du projet.
+- **Base de données** — structure qui conserve les informations de manière organisée.
 
 ---
 
-# 5. Problème et besoin
+## Problème et besoin
 
-## Problème
+### Problème
 
-- Le projet doit gérer et afficher les événements dans une même plateforme.
-- Les données doivent être organisées autour des trois tables existantes.
+- Les informations sur les événements peuvent être dispersées.
+- Il peut être difficile de trouver rapidement un événement.
+- Les événements doivent être organisés par catégorie et organisateur.
 
-## Besoin
+### Besoin
 
-- Structurer les données avec **Événement**, **Catégorie** et **Organisateur**.
-- Permettre l’ajout et la consultation des catégories depuis le tableau de bord.
-- Présenter clairement le fonctionnement connu du projet.
-
-
----
-## Pourquoi ce Lab est utile ?
-
-Il permet de présenter le projet technique avec une méthode simple, organisée et réutilisable.
-
-<!-- Note présentateur : Expliquer le besoin sans attribuer de fonctionnalité non indiquée au projet. -->
+- Regrouper les informations dans une seule plateforme.
+- Ajouter et afficher les événements facilement.
+- Organiser les événements avec des catégories et des organisateurs.
 
 ---
+<!-- _class: light -->
 
-# 6. Solution et pratique
+## Solution · architecture
 
-## Étapes du travail
+### Structure des données
 
-1. Identifier les parties nécessaires du Lab.
-2. Organiser les parties dans un ordre logique.
-3. Adapter le plan à la billetterie d’événements.
-4. Présenter les trois tables existantes.
-5. Vérifier l’ajout et l’affichage d’une catégorie.
+```text
+Organisateur → Événement ← Catégorie
+```
+
+- **Événement** — contient les informations de l'événement.
+- **Catégorie** — permet de classer les événements.
+- **Organisateur** — représente l'organisateur de l'événement.
+
+Cette organisation relie chaque événement à une catégorie et à un organisateur.
 
 ---
-## Exemple pratique : Billetterie d’événements
 
-- **Stack :** outils de présentation et éléments techniques connus.
-- **Définitions :** événement, catégorie, organisateur et tableau de bord.
-- **Pratique :** ajouter une catégorie puis vérifier sa visibilité.
+## Solution · étapes et pratique
 
-## Vérification
+1. Définir le besoin de la billetterie d’événements.
+2. Organiser les données autour des trois tables.
+3. Préparer l'interface du tableau de bord.
+4. Ajouter une catégorie depuis le tableau de bord.
+5. Afficher les catégories enregistrées.
+6. Préparer l'ajout et l'affichage des événements.
+
+### Fonctionnalité démontrée
+
+Le tableau de bord permet actuellement **d'ajouter et de voir les catégories**.
+
+---
+<!-- _class: light -->
+
+## Résultats et démonstration
+
+### Résultats réalisés
+
+- Les catégories peuvent être ajoutées depuis le tableau de bord.
+- Les catégories ajoutées peuvent être affichées.
+- Les données du projet sont organisées autour de trois tables.
+
+### Vérification
 
 | Action | Résultat attendu |
 | :--- | :--- |
 | Ajouter une catégorie | La catégorie est enregistrée |
-| Voir les catégories | La catégorie apparaît dans le tableau de bord |
+| Ouvrir la liste des catégories | La catégorie apparaît dans le tableau de bord |
+| Vérifier la structure | Les tables sont `Événement`, `Catégorie` et `Organisateur` |
 
-<!-- Note présentateur : Suivre les étapes, puis montrer la vérification fonctionnelle disponible. -->
+---
+
+## Conclusion et apprentissages
+
+### Bilan
+
+- Le besoin d'une plateforme centralisée est clairement défini.
+- La structure des données du projet est identifiée.
+- La gestion des catégories est réalisée dans le tableau de bord.
+- La présentation relie le besoin, la solution et la démonstration.
+
+### Améliorations possibles
+
+- Ajouter et afficher les événements.
+- Ajouter la gestion des organisateurs.
+- Ajouter une recherche ou des filtres.
+
+---
+<!-- _class: light -->
+
+## Conseils de présentation
+
+### Avant
+
+- Préparer une catégorie de démonstration.
+- Vérifier son ajout et son affichage dans le tableau de bord.
+- Préparer une explication simple des trois tables.
+
+### Pendant
+
+- Présenter le besoin avant les détails techniques.
+- Montrer la relation entre événement, catégorie et organisateur.
+- Démontrer une fonctionnalité réellement disponible.
+- Distinguer les fonctionnalités réalisées des améliorations futures.
+
+**Repère :** 15 à 20 minutes, selon les consignes.
 
 ---
 
-# 7. Résultats et conclusion
+## À retenir
 
-## Résultats
-
-- Le plan générique de sept parties est adapté au projet technique.
-- Les informations du projet sont organisées clairement.
-- La structure existante est présentée sans ajouter de table.
-
-## Ce que j’ai appris
-
-- Organiser et présenter un Lab technique.
-- Présenter un projet dans un ordre logique.
-- Relier un plan générique à un projet concret.
-
----
-## Conclusion
-
-Ce Lab fournit une méthode simple et réutilisable pour présenter le projet de billetterie d’événements.
-
-<!-- Note présentateur : Terminer en résumant la fonction démontrée et les trois tables, sans extrapoler sur des fonctionnalités non indiquées. -->
+- La billetterie d’événements centralise les informations des événements.
+- Le projet utilise les notions d'événement, catégorie et organisateur.
+- Le tableau de bord permet d'ajouter et d'afficher les catégories.
+- La structure des données suit la relation :
+  `Organisateur → Événement ← Catégorie`.
+- Les prochaines étapes concernent la gestion complète des événements.
