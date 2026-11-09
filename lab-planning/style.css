@@ -2,37 +2,116 @@
 @import 'default';
 
 section {
-  background: #f7f9fc;
-  color: #173050;
+  background: #f8fafc;
+  color: #172033;
   font-family: 'Segoe UI', Arial, sans-serif;
-  font-size: 28px;
-  padding: 64px 78px;
-  border-top: 12px solid #164b89;
+  font-size: 25px;
+  padding: 50px 68px 58px;
+  border-top: 10px solid #165d9c;
 }
-h1 { color: #143d70; font-size: 48px; margin: 0 0 30px; }
-h2 { color: #d44352; font-size: 30px; margin: 0 0 24px; }
-p, li { line-height: 1.4; }
-li { margin: 14px 0; }
-strong { color: #164b89; }
-table { width: 100%; font-size: 25px; border-collapse: collapse; }
-th { background: #164b89; color: white; }
-td, th { border: 1px solid #d8e2ef; padding: 14px 18px; }
-tr:nth-child(even) td { background: #edf3fa; }
-code { font-size: 22px; }
-pre { background: #e9f0f8; color: #143d70; padding: 14px 24px; margin: 0 0 16px; }
-em { color: #60758e; font-size: 22px; }
-section::after { color: #60758e; font-size: 16px; }
-section.cover { background: #f7f9fc; justify-content: center; }
-.cover h1 { font-size: 64px; margin-top: 55px; margin-bottom: 12px; }
-.cover p { margin: 12px 0; }
-.logos { display: flex; align-items: center; justify-content: space-between; width: 100%; height: 95px; }
-.logo { background-repeat: no-repeat; background-position: center; background-size: contain; height: 90px; flex-shrink: 0; }
-.ofppt { background-image: url('../lab-marp/ofppt.jpg'); width: 180px; }
-.solicode { background-image: url('../lab-marp/solicode.png'); width: 200px; }
-section.closing { background: #eaf1fa; }
-.closing strong { color: #d44352; font-size: 34px; }
 
+h1 {
+  color: #124d80;
+  font-size: 49px;
+  margin: 0 0 26px;
+  letter-spacing: -0.02em;
+}
 
-section.compact table { font-size: 22px; }
-section.compact td, section.compact th { padding: 10px 14px; }
+h2 {
+  color: #167a75;
+  font-size: 29px;
+  margin: 0 0 18px;
+}
 
+p,
+li {
+  line-height: 1.35;
+}
+
+li {
+  margin: 9px 0;
+}
+
+strong {
+  color: #124d80;
+}
+
+table {
+  width: 100%;
+  font-size: 22px;
+  border-collapse: collapse;
+}
+
+th {
+  background: #124d80;
+  color: #fff;
+}
+
+td,
+th {
+  border: 1px solid #cbd9e8;
+  padding: 10px 14px;
+}
+
+tr:nth-child(even) td {
+  background: #edf4f8;
+}
+
+em {
+  color: #587087;
+  font-size: 20px;
+}
+
+section::after {
+  color: #587087;
+  font-size: 16px;
+}
+
+section.cover {
+  background: #f8fafc;
+  justify-content: center;
+}
+
+.cover h1 {
+  font-size: 60px;
+  margin: 42px 0 10px;
+}
+
+.cover p {
+  margin: 10px 0;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 92px;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 86px;
+  flex-shrink: 0;
+}
+
+.ofppt {
+  background-image: url('./ofppt.jpg');
+  width: 170px;
+}
+
+.solicode {
+  background-image: url('./solicode.png');
+  width: 205px;
+}
+
+section.compact table {
+  font-size: 22px;
+}
+
+section.compact td,
+section.compact th {
+  padding: 10px 14px;
+}
