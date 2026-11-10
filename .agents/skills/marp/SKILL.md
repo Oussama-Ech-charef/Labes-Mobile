@@ -20,6 +20,35 @@ Utiliser cette skill pour créer ou modifier un fichier de présentation Marp (`
   6. Solution et démonstrations; ajouter des diapositives pratiques si nécessaire.
 - Pour le plan d'un lab, utiliser les rubriques : Introduction & Stack Technique, Définitions, Problème, Solution.
 - Ne pas ajouter de conclusion ou de remerciements; terminer par la solution ou le livrable.
+- Rédiger le contenu en français niveau A1, avec des phrases courtes et des mots simples.
+- Garder le contenu des slides dans `presentation.md` et le design dans `style.css`.
+- Ajouter toujours cet import CSS dans `presentation.md` et ne pas le supprimer ni le modifier :
+
+  ```html
+  <style>
+  @import url('./style.css');
+  </style>
+  ```
+
+- Créer un design simple, moderne et professionnel dans `style.css`, sans placer le CSS directement dans `presentation.md`.
+- Ajouter les logos OFPPT et Solicode dans la première slide, avec la classe `cover`, en utilisant les images disponibles dans le dossier du lab.
+- Ajouter toujours dans la première slide : **Étudiant :** Oussama Ech-charef et **Encadrant :** ES-Sarraj Fouad.
+- Préserver le design existant lors d'une modification, sauf demande explicite de changement visuel.
+
+### Design de référence
+
+- Utiliser un design CSS simple, moderne et professionnel.
+- Créer `style.css` avec cette identité visuelle comme base :
+  - fond clair : `#f7f9fc` ;
+  - texte : `#173050` ;
+  - bleu principal : `#164b89` ;
+  - rouge secondaire : `#d44352` ;
+  - police : `Segoe UI`, Arial, sans-serif.
+- Garder des titres clairs, des tableaux simples avec des couleurs alternées et
+  des blocs de code faciles à lire.
+- Garder la même identité visuelle dans toutes les présentations et adapter
+  les styles au contenu sans la perdre.
+- Ne pas utiliser Bootstrap ni Tailwind CSS.
 
 ## Exactitude et contenu
 
