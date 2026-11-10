@@ -3,75 +3,134 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-style: |
-  section {
-    background-color: #ffffff;
-    color: #111827;
-    font-family: 'Inter', system-ui, sans-serif;
-    padding: 40px 60px;
-  }
-  h1, h2, h3 { color: #1d4ed8; letter-spacing: 0.5px; }
-  pre, code { background-color: #eff6ff; color: #111827; border-radius: 6px; }
-  strong, a { color: #1d4ed8; }
 ---
 
+<style>
+@import url('./style.css');
+</style>
+
+<!-- _class: cover -->
+<!-- _paginate: false -->
+
+<div class="logos">
+  <div class="logo ofppt" role="img" aria-label="OFPPT logo"></div>
+  <div class="logo solicode" role="img" aria-label="Solicode logo"></div>
+</div>
+
 # lab-php
+
+**Nom de l'étudiant :** Oussama Ech-charef<br>
+**Nom de l'encadrant :** ES-Sarraj Fouad
 
 ---
 
 ## Plan
 
-1. Introduction
-2. Problème rencontré
-3. Solution proposée
-4. Exceptions
-5. Namespaces
-6. Traits
-7. Mise en pratique
+1. Introduction et outils
+2. Définitions
+3. Problème
+4. Solution
+5. Exemples pratiques
 
 ---
 
-## 1. Introduction
+## 1. Introduction et outils
 
-- **Objectif :** comprendre trois mécanismes de PHP utiles à l'organisation du
-  code.
+- **But :** apprendre trois notions de PHP.
 - **Notions :** exceptions, namespaces et traits.
-- **Périmètre :** exemples autonomes inspirés de l'architecture Laravel.
-- **Version ciblée :** PHP 8.3, comme le projet Laravel voisin.
+- Les exemples sont simples et autonomes.
+- Ils sont proches d'un projet Laravel.
+- **Version :** PHP 8.3.
+
+### Démarrage rapide
+
+Depuis le dossier `lab-php` :
+
+```bash
+php pratique/01-exceptions/exemple.php
+```
 
 ---
 
-## 2. Problème rencontré
+## Bonjour PHP
+
+Un premier programme PHP :
+
+```php
+<?php
+
+echo "Bonjour PHP !" . PHP_EOL;
+```
+
+Commande :
+
+```bash
+php exemple.php
+```
+
+Résultat :
+
+```text
+Bonjour PHP !
+```
+
+---
+
+## 2. Définitions
+
+### Exception
+
+Une exception indique un problème dans le programme.
+
+### Namespace
+
+Un namespace organise les classes.
+Il évite les noms en double.
+
+### Trait
+
+Un trait partage une méthode entre plusieurs classes.
+
+---
+
+## 3. Problème
 
 > À compléter avec le problème concret rencontré pendant le travail.
 
 ---
 
-## 3. Solution proposée
+## 4. Solution
 
 > À compléter avec la solution proposée par l'étudiant.
 
 ---
 
-## 4. Exceptions
+## 5. Exceptions
 
-- Une exception signale qu'une opération ne peut pas aboutir normalement.
-- `throw` transmet l'erreur.
-- `try/catch` permet de traiter l'erreur à la frontière appropriée.
-- Exemple : refuser une catégorie vide ou trop courte.
+- `throw` signale un problème.
+- `try` essaie une action.
+- `catch` traite le problème.
+- Exemple : refuser une catégorie vide.
 
 ```bash
 php pratique/01-exceptions/exemple.php
 ```
 
+Résultat :
+
+```text
+Catégorie créée : Produits
+Création refusée : Le nom de la catégorie est obligatoire.
+```
+
 ---
 
-## 5. Namespaces
+## Namespaces
 
-- Ils organisent les classes et évitent les collisions de noms.
-- `App\Models\Category` et `App\Http\Resources\Category` sont deux classes
-  distinctes.
-- `use ... as ...` rend leur utilisation explicite.
+- Ils rangent les classes.
+- Deux classes peuvent avoir le même nom court.
+- Exemple : `App\Models\Category`.
+- Exemple : `App\Http\Resources\Category`.
 
 ```bash
 php pratique/02-namespaces/exemple.php
@@ -79,11 +138,11 @@ php pratique/02-namespaces/exemple.php
 
 ---
 
-## 6. Traits
+## Traits
 
-- Un trait partage une implémentation entre plusieurs classes.
-- `Category` et `User` réutilisent `displayName()`.
-- Un trait doit rester limité à un comportement réellement commun.
+- Un trait contient une méthode commune.
+- `Category` et `User` utilisent `displayName()`.
+- Le code est écrit une seule fois.
 
 ```bash
 php pratique/03-traits/exemple.php
@@ -91,9 +150,9 @@ php pratique/03-traits/exemple.php
 
 ---
 
-## 7. Mise en pratique
+## Exemples pratiques
 
-Depuis `lab-php`, exécuter les trois commandes :
+Depuis le dossier `lab-php` :
 
 ```bash
 php pratique/01-exceptions/exemple.php
@@ -101,6 +160,5 @@ php pratique/02-namespaces/exemple.php
 php pratique/03-traits/exemple.php
 ```
 
-Les explications détaillées et les résultats attendus sont disponibles dans
-les trois fichiers `tutoriel.md` du dossier `pratique`.
-
+Les explications sont dans les trois fichiers `tutoriel.md` du dossier
+`pratique`.
