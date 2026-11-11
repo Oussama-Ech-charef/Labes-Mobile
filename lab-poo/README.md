@@ -17,6 +17,32 @@ Les six notions sont :
 - **Encapsulation :** protéger les données d'une classe.
 - **Méthodes et propriétés statiques :** utiliser des éléments directement avec une classe.
 
+## Démarrage
+
+Les exemples sont autonomes et ne modifient pas directement l'application
+Laravel. Depuis le dossier `lab-poo`, exécutez un exemple avec :
+
+```bash
+php pratique/01-classe-abstraite/exemple.php
+```
+
+PHP 8.3 ou une version compatible avec la syntaxe utilisée est recommandée,
+comme dans `lab-laravel/hello-world`.
+
+## Exemples pratiques
+
+| Notion | Exemple | Tutoriel |
+|---|---|---|
+| Classe abstraite | Modèle commun pour des produits | [01-classe-abstraite/tutoriel.md](pratique/01-classe-abstraite/tutoriel.md) |
+| Interface | Contrat d'export JSON d'une catégorie | [02-interface/tutoriel.md](pratique/02-interface/tutoriel.md) |
+| Héritage | Spécialisation d'un utilisateur administrateur | [03-heritage/tutoriel.md](pratique/03-heritage/tutoriel.md) |
+| Polymorphisme | Envoi par e-mail ou SMS avec `send()` | [04-polymorphisme/tutoriel.md](pratique/04-polymorphisme/tutoriel.md) |
+| Encapsulation | Validation du nom d'une catégorie | [05-encapsulation/tutoriel.md](pratique/05-encapsulation/tutoriel.md) |
+| Méthodes et propriétés statiques | Génération de codes de catégories | [06-statique/tutoriel.md](pratique/06-statique/tutoriel.md) |
+
+Chaque dossier contient un fichier `exemple.php` exécutable et un
+`tutoriel.md` associé.
+
 ## Travail demandé
 
 1. Rechercher les six notions et comprendre leur rôle.

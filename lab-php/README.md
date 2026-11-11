@@ -1,39 +1,37 @@
-# lab-php
+# Lab PHP
 
 ## Objectif
 
-Ce lab présente trois notions de PHP utiles pour structurer le code d'une
-application Laravel :
+Dans ce lab, nous allons apprendre et utiliser trois notions de PHP.
 
-- la gestion des erreurs et des exceptions ;
-- les namespaces ;
-- les traits.
+Ces notions ne sont pas encore étudiées en cours :
 
-Les exemples du dossier `pratique` sont autonomes. Ils illustrent des
-situations proches du projet Laravel, mais ne modifient pas directement son
-code applicatif.
+- **Gestion des erreurs et des exceptions** : trouver et gérer les erreurs.
+- **Namespaces** : organiser les classes et éviter les mêmes noms.
+- **Traits** : utiliser les mêmes méthodes dans plusieurs classes.
 
-## Démarrage
+Pour chaque notion, nous allons expliquer son rôle et faire un exemple pratique dans notre projet.
 
-Depuis le dossier `lab-php` :
+## Travail demandé
 
-```bash
-php pratique/01-exceptions/exemple.php
-php pratique/02-namespaces/exemple.php
-php pratique/03-traits/exemple.php
-```
+1. Chercher les trois notions et expliquer leur rôle.
+2. Faire un exemple pratique pour chaque notion dans notre projet.
+3. Tester les exemples et expliquer leur place dans le projet.
+4. Présenter le travail dans le fichier `presentation.md` avec Marp.
 
-PHP 8.3 ou une version compatible avec la syntaxe utilisée est recommandée,
-comme dans `lab-laravel/hello-world`.
+**Important :** Les exemples ci-dessous sont autonomes. Ils illustrent les notions
+et simulent des cas d'usage ; ils ne sont pas encore intégrés à une application
+réelle du projet.
 
-## Exemples pratiques
+## Exemples
+
+Depuis le dossier `lab-php`, exécuter :
 
 | Notion | Exemple | Tutoriel |
 |---|---|---|
-| Exceptions | Validation d'une catégorie avant son enregistrement | [01-exceptions/tutoriel.md](pratique/01-exceptions/tutoriel.md) |
-| Namespaces | Deux classes `Category` organisées dans des espaces distincts | [02-namespaces/tutoriel.md](pratique/02-namespaces/tutoriel.md) |
-| Traits | Formatage partagé entre une catégorie et un utilisateur | [03-traits/tutoriel.md](pratique/03-traits/tutoriel.md) |
+| Erreurs et exceptions | `php exceptions/exemple.php` | [exceptions/tutoriel.md](exceptions/tutoriel.md) |
+| Namespaces | `php namespaces/exemple.php` | [namespaces/tutoriel.md](namespaces/tutoriel.md) |
+| Traits | `php traits/exemple.php` | [traits/tutoriel.md](traits/tutoriel.md) |
 
-Chaque exemple se trouve dans son propre dossier et contient un fichier
-`exemple.php` exécutable ainsi qu'un `tutoriel.md`.
-
+Chaque exemple est validé avec PHP 8.5.10, disponible dans l'environnement
+vérifié.

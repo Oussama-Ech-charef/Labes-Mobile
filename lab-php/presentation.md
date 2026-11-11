@@ -10,155 +10,177 @@ size: 16:9
 </style>
 
 <!-- _class: cover -->
-<!-- _paginate: false -->
+
+# Lab PHP
+
+## Erreurs, namespaces et traits
 
 <div class="logos">
-  <div class="logo ofppt" role="img" aria-label="OFPPT logo"></div>
-  <div class="logo solicode" role="img" aria-label="Solicode logo"></div>
+  <img src="./ofppt.jpg" alt="Logo OFPPT">
+  <img src="./solicode.png" alt="Logo Solicode">
 </div>
 
-# lab-php
-
-**Nom de l'étudiant :** Oussama Ech-charef<br>
-**Nom de l'encadrant :** ES-Sarraj Fouad
+**Étudiant :** Oussama Ech-charef  
+**Encadrant :** ES-Sarraj Fouad
 
 ---
 
-## Plan
+<!-- _class: light -->
 
-1. Introduction et outils
+## Plan de présentation
+
+1. Introduction & Stack Technique
 2. Définitions
 3. Problème
 4. Solution
-5. Exemples pratiques
 
 ---
 
-## 1. Introduction et outils
+<!-- _class: light -->
 
-- **But :** apprendre trois notions de PHP.
-- **Notions :** exceptions, namespaces et traits.
-- Les exemples sont simples et autonomes.
-- Ils sont proches d'un projet Laravel.
-- **Version :** PHP 8.3.
+## Introduction & Stack Technique
 
-### Démarrage rapide
+- PHP sert à créer des applications web.
+- Ce lab étudie trois notions de PHP.
+- Les exemples sont exécutés avec PHP en ligne de commande.
 
-Depuis le dossier `lab-php` :
-
-```bash
-php pratique/01-exceptions/exemple.php
-```
+| Outil | Version vérifiée |
+|---|---:|
+| PHP | 8.5.10 |
+| Composer | 2.10.3 |
 
 ---
 
-## Bonjour PHP
+<!-- _class: light -->
 
-Un premier programme PHP :
+## Définition : erreurs et exceptions
+
+- Une erreur indique un problème pendant l'exécution.
+- Une exception est un objet qui décrit un problème.
+- `try` exécute le code à surveiller.
+- `catch` traite l'exception.
+- `finally` peut exécuter une action finale.
 
 ```php
 <?php
 
-echo "Bonjour PHP !" . PHP_EOL;
+try {
+    throw new Exception("Exemple d'erreur");
+} catch (Exception $exception) {
+    echo $exception->getMessage() . PHP_EOL;
+}
 ```
 
-Commande :
+---
+
+## Définition : namespaces
+
+- Un namespace organise les classes.
+- Il évite les conflits de noms.
+- `use` permet d'importer une classe.
+
+```php
+<?php
+
+namespace App\Demo;
+
+class Message
+{
+    public function text(): string
+    {
+        return "Bonjour";
+    }
+}
+```
+
+---
+
+<!-- _class: light -->
+
+## Définition : traits
+
+- Un trait contient des méthodes réutilisables.
+- Une classe utilise un trait avec `use`.
+- Un trait évite de copier le même code.
+
+```php
+<?php
+
+trait LogsMessages
+{
+    public function log(string $message): void
+    {
+        echo $message . PHP_EOL;
+    }
+}
+
+class Service
+{
+    use LogsMessages;
+}
+```
+
+---
+
+## Problèmes simulés
+
+Ces problèmes sont pédagogiques. Ils ne décrivent pas un problème vécu dans
+le projet réel.
+
+- Un diviseur nul peut arrêter un calcul.
+- Deux domaines peuvent avoir des classes portant le même nom.
+- Deux services peuvent répéter le même code de journalisation.
+
+---
+
+<!-- _class: light -->
+
+## Solution : erreurs et exceptions
+
+- Vérifier le diviseur avant le calcul.
+- Lancer `InvalidArgumentException` si la valeur est invalide.
+- Traiter l'exception avec `try` et `catch`.
 
 ```bash
-php exemple.php
+php exceptions/exemple.php
+```
+
+Résultat : `5`, puis `Erreur traitée : Le diviseur ne peut pas être zéro.`
+
+---
+
+## Solution : namespaces
+
+- Placer chaque domaine dans son namespace.
+- Utiliser le nom complet de la classe.
+- Éviter les conflits entre `Boutique\Produit` et `Stock\Produit`.
+
+```bash
+php namespaces/exemple.php
+```
+
+Résultat : deux noms de produits différents.
+
+---
+
+<!-- _class: light -->
+
+## Solution : traits
+
+- Mettre la journalisation commune dans `Journalisation`.
+- Réutiliser le trait dans deux services.
+- Garder une seule méthode à maintenir.
+
+```bash
+php traits/exemple.php
 ```
 
 Résultat :
 
 ```text
-Bonjour PHP !
+[LOG] Utilisateur créé
+[LOG] Commande enregistrée
 ```
 
----
-
-## 2. Définitions
-
-### Exception
-
-Une exception indique un problème dans le programme.
-
-### Namespace
-
-Un namespace organise les classes.
-Il évite les noms en double.
-
-### Trait
-
-Un trait partage une méthode entre plusieurs classes.
-
----
-
-## 3. Problème
-
-> À compléter avec le problème concret rencontré pendant le travail.
-
----
-
-## 4. Solution
-
-> À compléter avec la solution proposée par l'étudiant.
-
----
-
-## 5. Exceptions
-
-- `throw` signale un problème.
-- `try` essaie une action.
-- `catch` traite le problème.
-- Exemple : refuser une catégorie vide.
-
-```bash
-php pratique/01-exceptions/exemple.php
-```
-
-Résultat :
-
-```text
-Catégorie créée : Produits
-Création refusée : Le nom de la catégorie est obligatoire.
-```
-
----
-
-## Namespaces
-
-- Ils rangent les classes.
-- Deux classes peuvent avoir le même nom court.
-- Exemple : `App\Models\Category`.
-- Exemple : `App\Http\Resources\Category`.
-
-```bash
-php pratique/02-namespaces/exemple.php
-```
-
----
-
-## Traits
-
-- Un trait contient une méthode commune.
-- `Category` et `User` utilisent `displayName()`.
-- Le code est écrit une seule fois.
-
-```bash
-php pratique/03-traits/exemple.php
-```
-
----
-
-## Exemples pratiques
-
-Depuis le dossier `lab-php` :
-
-```bash
-php pratique/01-exceptions/exemple.php
-php pratique/02-namespaces/exemple.php
-php pratique/03-traits/exemple.php
-```
-
-Les explications sont dans les trois fichiers `tutoriel.md` du dossier
-`pratique`.
+Les trois démonstrations sont autonomes. Leur intégration dans le projet réel
+reste à faire après identification de son architecture.
